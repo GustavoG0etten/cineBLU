@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -73,7 +73,7 @@ header {
     border-radius: 4px;
     padding: 0 10px 0 45px !important;
     backdrop-filter: blur(10px);
-}
+} 
 
 .search input::placeholder {
     color: #fff;
@@ -201,9 +201,43 @@ header {
 
 .banner .carousel-box {
     position: relative;
-    min-width: 950px;
+    min-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
 }
+
+.carousel {
+    position: relative;
+    height: 550px;
+    perspective: 1500;
+}
+
+.carousel .carousel-item {
+    width: 250px;
+    cursor: pointer;
+}
+
+.carousel .carousel-item img {
+    max-width: 235px;
+    border-radius: 10px;
+    transform: translateX(8px) translateY(-100px);
+    object-fit: cover;
+    object-position: center;
+}
+
+.play {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+ 
