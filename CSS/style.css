@@ -109,7 +109,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(/img/filmes/john-wick-2.jpg) no-repeat;
+    background: url(../img/filmes/bg-john-wick-2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -217,10 +217,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.2);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
     border-radius: 10px;
 }
 
@@ -292,5 +290,5 @@ header {
 }
 
 .sci a:hover {
-    color:var(--primary)
+    color: var(--primary);
 }
