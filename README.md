@@ -10,7 +10,8 @@ CSS: Estilo e layout da página.
 JavaScript: Comportamento interativo da página.
 
 HTML
-O HTML define a estrutura da página, incluindo o cabeçalho, o banner, o carrossel e os botões de ação.
+O HTML define a estrutura da página, incluindo o cabeçalho, o banner, o carrossel e os botões de ação. /n
+\n
 
 CSS
 O CSS define o estilo e layout da página. Abaixo estão os principais estilos usados no projeto.
